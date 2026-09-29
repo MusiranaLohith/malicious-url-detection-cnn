@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malicious URL Detector</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- FONT (Manrope) -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- SWEET ALERT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Malicious URL Detector</h1>
+    <p class="subtitle">Detect phishing & malicious websites using Deep Learning</p>
+
+    <div class="input-box">
+
+        <div class="input-wrapper">
+            <i class="fas fa-search"></i>
+            <input id="urlInput" type="text" placeholder="Enter URL (https://example.com)">
+        </div>
+
+        <button onclick="checkURL()">Analyse</button>
+
+    </div>
+
+</div>
+
+<div class="image-section">
+    <img src="/static/images/image_1.jpeg">
+    <img src="/static/images/image_2.jpeg">
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
